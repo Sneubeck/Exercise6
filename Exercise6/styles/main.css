@@ -13,3 +13,13 @@ body {
     font-weight: bold;
     margin-top: 20px;
 }
+.navigation {
+    background-image: linear-gradient(#1e5799, #7db9e8);
+    padding: 10px;
+}
+.navigation a {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
