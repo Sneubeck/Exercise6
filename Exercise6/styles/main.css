@@ -7,3 +7,9 @@ body {
     margin: 20px auto;
     width: 960px;
 }
+.page-heading {
+    color: #7db9e8;
+    float: right;
+    font-weight: bold;
+    margin-top: 20px;
+}
