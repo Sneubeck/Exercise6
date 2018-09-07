@@ -23,3 +23,8 @@ body {
     font-weight: bold;
     margin: 0px 10px;
 }
+.hero {
+    background-image: url("images/hero.jpg");
+    height: 300px; 
+    width: 100%;
+}
