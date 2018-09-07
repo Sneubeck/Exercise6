@@ -8,10 +8,13 @@ body {
     width: 960px;
 }
 .page-heading {
+    padding: 20px
+}
+.page-heading .user-link {
     color: #7db9e8;
     float: right;
     font-weight: bold;
-    margin-top: 20px;
+    margin: 20px 0px 0px 0px;
 }
 .navigation {
     background-image: linear-gradient(#1e5799, #7db9e8);
@@ -24,7 +27,32 @@ body {
     margin: 0px 10px;
 }
 .hero {
-    background-image: url("images/hero.jpg");
+    background-image: url("../images/hero.jpg");
     height: 300px; 
     width: 100%;
+}
+.services {
+    margin: 10px 0px 0px 0px;
+}
+.service {
+    float: left;
+    padding: 20px;
+    width: 280px;
+}
+.service .service-image {
+    background-color: #7db9e8;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 0px auto;
+}
+.service .service-image img {
+    margin: 30px 0px 0px 0px;
+}
+.service h2 {
+    text-align: center;
+}
+.clear {
+    clear: both;
 }
